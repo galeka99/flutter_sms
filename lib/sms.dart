@@ -5,7 +5,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:sms/contact.dart';
+import 'package:sms_plugin/contact.dart';
 
 typedef OnError(Object error);
 

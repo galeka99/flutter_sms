@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:sms/contact.dart';
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/contact.dart';
+import 'package:sms_plugin/sms.dart';
 import '../sim/sim_bloc_provider.dart';
 
 typedef void MessageSentCallback(SmsMessage message);

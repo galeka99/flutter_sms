@@ -1,7 +1,5 @@
-![xxhdpi](https://user-images.githubusercontent.com/37498811/41118114-d9cad440-6ab0-11e8-9254-68d6aac245be.png)
-
-# [UNMAINTAINED] This project is unmaintained
-
+# [FORKED] This project is forked
+This project is forked from [babariviere](https://github.com/babariviere)'s **sms** [plugin](https://pub.dev/packages/sms)
 
 # Flutter SMS
 
@@ -26,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  sms: ^0.2.0
+  sms_plugin: ^0.2.5
 ```
 
 Then run the command `flutter packages get` on the console.
@@ -36,7 +34,7 @@ Then run the command `flutter packages get` on the console.
 Add the import statement for `sms` and create an instance of the *SmsQuery* class:
 
 ```dart
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms_plugin.dart';
 
 void main() {
   SmsQuery query = new SmsQuery();
@@ -84,10 +82,10 @@ List<SmsThread> threads = await query.getAllThreads;
 
 Each conversation thread is related with a Contact. 
 The class `Contact` contains all the info of a thread contact (address, photo, full name).
-To get access to `Contact` class you must import `'package:sms/contact.dart'` into your dart file:
+To get access to `Contact` class you must import `'package:sms_plugin/contact.dart'` into your dart file:
 
 ```dart
-import 'package:sms/contact.dart';
+import 'package:sms_plugin/contact.dart';
 
 void main() {
   ...
@@ -101,7 +99,7 @@ void main() {
 You can also query a contact by its address _(phone number)_:
 
 ```dart
-import 'package:sms/contact.dart';
+import 'package:sms_plugin/contact.dart';
 
 void main() {
   ContactQuery contacts = new ContactQuery();
@@ -126,7 +124,7 @@ Uint8List thumbnail = contact.thumbnail.bytes;
 Some times it is useful to request basic info of the phone owner, like the contact photo, addresses, etc.
 
 ```dart
-import 'package:sms/contact.dart';
+import 'package:sms_plugin/contact.dart';
 
 UserProfileProvider provider = new UserProfileProvider();
 UserProfile profile = await provider.getUserProfile();
@@ -138,7 +136,7 @@ print(profile.fullName);
 What about sending a SMS? All you have to do is to create an instance of the `SmsSender` class:
 
 ```dart
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms.dart';
 
 void main() {
   SmsSender sender = new SmsSender();
@@ -151,7 +149,7 @@ void main() {
 To be notified when the message is sent and/or delivered, you must add a listener to your message:
 
 ```dart
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms.dart';
 
 void main() {
   SmsSender sender = new SmsSender();
@@ -199,7 +197,7 @@ sender.sendSMS(message, simCard: card);
 If you want to be notified for incoming new messages you must subscribe to an instance of the `SmsReceiver` class:
 
 ```dart
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms.dart';
 
 void main() {
   SmsReceiver receiver = new SmsReceiver();
@@ -228,6 +226,7 @@ void main() {
 - babariviere [github](https://github.com/babariviere)
 - joanpablo [github](https://github.com/joanpablo)
 - saifulfrank [github](https://github.com/saifulfrank)
+- galeka99 [github](https://github.com/galeka99)
 
 ### App logo
 Designed and created by [Imrul kayes](https://github.com/saifulfrank)

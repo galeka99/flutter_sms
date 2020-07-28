@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms.dart';
 
 import '../utils/group.dart';
 import 'conversationStore.dart';

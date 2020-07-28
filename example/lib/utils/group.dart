@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sms/sms.dart';
+import 'package:sms_plugin/sms.dart';
 
 class MessageGroupService {
   static MessageGroupService of(BuildContext context) {
