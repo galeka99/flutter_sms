@@ -10,6 +10,7 @@ class ConversationStore extends InheritedWidget {
   final SmsThread thread;
 
   static ConversationStore of(BuildContext context) {
+    // ignore: deprecated_member_use
     return context.inheritFromWidgetOfExactType(ConversationStore)
         as ConversationStore;
   }
