@@ -25,5 +25,5 @@ linter:
 
 flutter:
   plugin:
-    androidPackage: com.babariviere.sms
+    androidPackage: id.galeka.sms
     pluginClass: SmsPlugin

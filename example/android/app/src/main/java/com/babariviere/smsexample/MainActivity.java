@@ -1,4 +1,4 @@
-package com.babariviere.smsexample;
+package id.galeka.smsexample;
 
 import android.os.Bundle;
 
