@@ -1,3 +1,8 @@
+## [0.2.5] - 2020-07-28
+
+* update compileSdkVersion to 28
+* Refactor java to kotlin
+
 ## [0.2.4] - 2018-09-30
 
 * Add fail state
