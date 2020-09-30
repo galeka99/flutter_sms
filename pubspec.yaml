@@ -9,6 +9,7 @@ dependencies:
 
 environment:
   sdk: ">=1.19.0 <3.0.0"
+  flutter: ">=1.10.0"
 
 analyzer:
   strong-mode: true

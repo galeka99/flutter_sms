@@ -1,6 +1,7 @@
 ## [0.2.6] - 2020-09-30
 
 * Fix some typo
+* Added minimum flutter version
 
 ## [0.2.5] - 2020-07-28
 
