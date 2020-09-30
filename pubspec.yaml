@@ -1,6 +1,6 @@
 name: sms_plugin
 description: SMS library for Flutter applications. Its allow to send, receive, query sms messages, sms delivery and query contacts info. It exposes an easy and friendly API for developing a completely functional sms app in Flutter.
-version: 0.2.5
+version: 0.2.6
 homepage: "https://github.com/galeka99/flutter_sms"
 
 dependencies:
@@ -24,7 +24,7 @@ linter:
 
 flutter:
   plugin:
-    platformss:
+    platforms:
       android:
         package: id.galeka.sms
         pluginClass: SmsPlugin
